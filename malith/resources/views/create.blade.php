@@ -4,7 +4,7 @@
 
 <br>
 <a href="/member" class="btn btn-info">Back</a> 
-	<h1>{{substr(Route::currentRouteName(),7)}} Member</h1>
+	<h1>{{substr(Route::currentRouteName(),7)}} member</h1>
 	<div class="container">
   <form class="form-horizontal" action="/member/@yield('editId')" method="post">
   	{{csrf_field()}}
