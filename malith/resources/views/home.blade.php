@@ -12,8 +12,8 @@
       <th>Last Name</th>
       <th>Date of Birth</th>
       <th>DS Division</th>
-      <th>Edit</th>
       <th>Delete</th>
+      <th>Edit</th>
    </tr>
     
 @foreach($members as $member)
